@@ -4,6 +4,8 @@
 // Find the second digit of the number
 // Args:
 //     number
-// Returns:
-//     return amswer;
-void main() {}
+// Re//     return amswer;turns:
+int func(number){
+  return number ~/10;
+}
+void main() {print(func(93));}
