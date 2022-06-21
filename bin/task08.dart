@@ -8,4 +8,8 @@
   Returns:
       return answer
   */
-void main() {}
+  double func (number){
+return (number%10 +number ~/10)/2;
+  }
+void main() {print(func(75));
+}
