@@ -8,6 +8,6 @@
   Returns:
       return answer
   */int func(number){
-    return number ~/10%10;
+    return number ~/10 ;
   }
 void main() {print(func(92));}
